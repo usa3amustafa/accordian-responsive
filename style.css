@@ -51,9 +51,34 @@ h2 {
   align-items: center;
   justify-content: space-between;
 }
-.question i {
-  font-size: 1.3rem;
-}
+
 .btn {
   cursor: pointer;
+  font-size: 1.7rem;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    width: 90%;
+  }
+  body {
+    font-size: 0.7rem;
+  }
+  .question {
+    padding: 0.5em 1em;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    width: 95%;
+  }
+  body {
+    font-size: 0.6rem;
+  }
+  .btn {
+    font-size: 0.8rem;
+  }
 }
